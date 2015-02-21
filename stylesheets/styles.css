@@ -793,11 +793,12 @@ section #title {
   padding: 0 0 5px 0;
 }
 section #title h1 {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  line-height: 36px;
+    font-family: "Maven Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 10px;
 }
 section #title p {
   color: #d7cfbe;
@@ -818,6 +819,11 @@ section #title .credits.left {
 }
 section #title .credits.right {
   float: right;
+}
+section #title img {
+    display: block;
+    margin: auto;
+    /*text-align: center;*/
 }
 
 @media print, screen and (max-width: 720px) {
