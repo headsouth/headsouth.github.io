@@ -4,12 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Headsouth</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <!-- <link rel="stylesheet" href="stylesheets/pygment_trac.css"> -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Maven+Pro:500"
           rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <script src="javascripts/jquery.js"></script>
+    <!-- <script src="javascripts/respond.js"></script> -->
+
+    <!-- Bootstrap -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -21,21 +26,43 @@
 
 </head>
 <body>
-<div id="header"></div>
-
-<div class="wrapper">
-
-    <section>
-        <div id="title">
-            <img src="images/logo_gold.png" alt="Headsouth"/>
-
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/"></a>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <section class="row">
+        <div class="col-sm-6 col-md-5 col-md-offset-1">
+            <a href="https://www.facebook.com/events/877413362319478/">
+                <img src="images/title_fight.png" alt="Title Fight" />
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-5 col-md-offset-0">
+            <a href="https://www.facebook.com/events/877413362319478/">
+                <img src="images/title_fight_text.png" alt="Title Fight Text" />
+            </a>
+        </div>
+    </section>
+    <section class="row">
+        <div id="title" class="col-md-12">
+            <a href="https://www.facebook.com/headsouthperu">
+                <img src="images/logo_red.png" alt="Headsouth"/>
+            </a>
             <h1>HEADSOUTH</h1>
-
-            <p>Coming Soon</p>
-            <p>management@headsouth.pe</p>
-            <hr>
+            <p>We Like Bands &Delta; We Produce Shows</p>
+            <p>Website Coming Soon.</p>
+            <br />
+            <a class="black" href="https://www.facebook.com/headsouthperu">
+                <span class="fa fa-facebook-official fa-3x"></span>
+            </a>
         </div>
 
+    </section>
         <!--[if !IE]>
         <script>fixScale(document);</script><![endif]-->
         <script type="text/javascript">
@@ -49,7 +76,6 @@
             } catch (err) {
             }
         </script>
-    </section>
 </div>
 </body>
 </html>
